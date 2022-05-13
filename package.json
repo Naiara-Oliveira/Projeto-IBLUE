@@ -1,7 +1,7 @@
 {
   "name": "mvc_com_node",
   "version": "1.0.0",
-  "description": "",
+  "description": "Cria uma rota do método GET, para retornar as informações inseridas no banco. agregando ao projeto através de uma rota com o método POST efetuar as inserções dos dados",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,5 +14,17 @@
     "express": "^4.18.1",
     "pg": "^8.7.3",
     "sequelize": "^6.19.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naiara-Oliveira/Node-Postgres.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Naiara-Oliveira/Node-Postgres/issues"
+  },
+  "homepage": "https://github.com/Naiara-Oliveira/Node-Postgres#readme"
 }
